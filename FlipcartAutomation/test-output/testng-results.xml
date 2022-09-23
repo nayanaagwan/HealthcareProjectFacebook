@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T16:46:05 IST" name="Suite" finished-at="2022-09-21T16:47:13 IST" duration-ms="68164">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T16:46:05 IST" name="ChromeTest" finished-at="2022-09-21T16:46:43 IST" duration-ms="38110">
+      <class name="flipCart.VerifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:05 IST" name="launchBrowser" finished-at="2022-09-21T16:46:08 IST" duration-ms="3258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:10 IST" name="createPOMObjects" finished-at="2022-09-21T16:46:10 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:10 IST" name="openRoomsPage" finished-at="2022-09-21T16:46:17 IST" duration-ms="7314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenterButton()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:17 IST" name="verifyContactToHelpCenterButton" finished-at="2022-09-21T16:46:20 IST" duration-ms="2247" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Messenger help Centre Title found expected [Messenger help`Centre] but found [Messenger Help Centre]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Messenger help Centre Title found expected [Messenger help`Centre] but found [Messenger Help Centre]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at flipCart.VerifyRoomsPage.verifyContactToHelpCenterButton(VerifyRoomsPage.java:123)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenterButton -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:20 IST" name="logoutFromApplication" finished-at="2022-09-21T16:46:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:20 IST" name="openRoomsPage" finished-at="2022-09-21T16:46:36 IST" duration-ms="16499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyGoBackToMessengerButton()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:36 IST" name="verifyGoBackToMessengerButton" finished-at="2022-09-21T16:46:40 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoBackToMessengerButton -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:40 IST" name="logoutFromApplication" finished-at="2022-09-21T16:46:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:flipCart.VerifyRoomsPage@3911c2a7]" started-at="2022-09-21T16:46:40 IST" name="closedBrowser" finished-at="2022-09-21T16:46:43 IST" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- flipCart.VerifyRoomsPage -->
+      <class name="flipCart.VerifyWatchTNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:08 IST" name="launchBrowser" finished-at="2022-09-21T16:46:10 IST" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:10 IST" name="createPOMObjects" finished-at="2022-09-21T16:46:10 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:10 IST" name="openWatchPage" finished-at="2022-09-21T16:46:14 IST" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="forgottenAccount()[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:14 IST" name="forgottenAccount" finished-at="2022-09-21T16:46:18 IST" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottenAccount -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:18 IST" name="openWatchPage" finished-at="2022-09-21T16:46:22 IST" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="openLive()[pri:0, instance:flipCart.VerifyWatchTNG@2145b572]" started-at="2022-09-21T16:46:22 IST" name="openLive" finished-at="2022-09-21T16:46:26 IST" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLive -->
+      </class> <!-- flipCart.VerifyWatchTNG -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-21T16:46:43 IST" name="FirefoxTest" finished-at="2022-09-21T16:47:13 IST" duration-ms="29947">
+      <class name="flipCart.VerifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:46:43 IST" name="launchBrowser" finished-at="2022-09-21T16:46:50 IST" duration-ms="6597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:46:55 IST" name="createPOMObjects" finished-at="2022-09-21T16:46:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:46:55 IST" name="openRoomsPage" finished-at="2022-09-21T16:47:02 IST" duration-ms="6835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenterButton()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:02 IST" name="verifyContactToHelpCenterButton" finished-at="2022-09-21T16:47:04 IST" duration-ms="1978" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Messenger help Centre Title found expected [Messenger help`Centre] but found [Messenger Help Centre]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Messenger help Centre Title found expected [Messenger help`Centre] but found [Messenger Help Centre]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at flipCart.VerifyRoomsPage.verifyContactToHelpCenterButton(VerifyRoomsPage.java:123)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenterButton -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:04 IST" name="logoutFromApplication" finished-at="2022-09-21T16:47:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:04 IST" name="openRoomsPage" finished-at="2022-09-21T16:47:09 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyGoBackToMessengerButton()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:09 IST" name="verifyGoBackToMessengerButton" finished-at="2022-09-21T16:47:11 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoBackToMessengerButton -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:11 IST" name="logoutFromApplication" finished-at="2022-09-21T16:47:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:flipCart.VerifyRoomsPage@32eff876]" started-at="2022-09-21T16:47:11 IST" name="closedBrowser" finished-at="2022-09-21T16:47:13 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- flipCart.VerifyRoomsPage -->
+      <class name="flipCart.VerifyWatchTNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:46:50 IST" name="launchBrowser" finished-at="2022-09-21T16:46:55 IST" duration-ms="5429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:46:55 IST" name="createPOMObjects" finished-at="2022-09-21T16:46:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:46:55 IST" name="openWatchPage" finished-at="2022-09-21T16:46:59 IST" duration-ms="4047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="forgottenAccount()[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:46:59 IST" name="forgottenAccount" finished-at="2022-09-21T16:47:02 IST" duration-ms="2613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottenAccount -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:47:02 IST" name="openWatchPage" finished-at="2022-09-21T16:47:09 IST" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="openLive()[pri:0, instance:flipCart.VerifyWatchTNG@8dbdac1]" started-at="2022-09-21T16:47:09 IST" name="openLive" finished-at="2022-09-21T16:47:10 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLive -->
+      </class> <!-- flipCart.VerifyWatchTNG -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
