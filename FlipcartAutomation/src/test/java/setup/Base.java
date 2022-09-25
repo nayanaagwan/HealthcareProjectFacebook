@@ -3,6 +3,7 @@ package setup;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 
 public class Base {
 	public static WebDriver openChromeBrowser() {
@@ -21,7 +22,7 @@ public class Base {
 	
 	public static WebDriver openOperaBrowser() {
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\HP\\Music\\Selenium\\New folder\\operadriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new OperaDriver();
 		return driver ;
 
 }
