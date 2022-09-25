@@ -18,4 +18,11 @@ public class Base {
 		return driver ;
 
 }
+	
+	public static WebDriver openOperaBrowser() {
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\HP\\Music\\Selenium\\New folder\\operadriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		return driver ;
+
+}
 }
